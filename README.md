@@ -1,4 +1,4 @@
-# twikoo deployment on Cloudflare workers
+# Cloudflare Workers 上的 twikoo 部署
 
 这是 Cloudflare Worker 上的 twikoo 部署。与 Vercel/Netlify + MongoDB 等其他部署相比，它大大改善了冷启动延迟 ( 6s-> <0.5s)。延迟改进主要来自对 Cloudflare Worker 的大量优化以及 HTTP 服务器和数据库之间的集成环境 (Cloudflare D1)。
 
